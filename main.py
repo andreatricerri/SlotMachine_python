@@ -1,24 +1,28 @@
 import random
 
 MAX_LINES = 3
-MAX_BET = 100
-MIN_BET = 1
+MAX_BET = 1000
+MIN_BET = 10
 
 ROWS = 3
-COLS = 3
+COLS = 5
 
 symbol_count = {
-    "A": 2,
-    "B": 4,
-    "C": 6,
-    "D": 8
+    "A": 15,
+    "K": 15,
+    "Q": 15,
+    "J": 15,
+    "10": 15,
+    "9": 15
 }
 
 symbol_value = {
     "A": 5,
-    "B": 4,
-    "C": 3,
-    "D": 2
+    "K": 4,
+    "Q": 3,
+    "J": 2,
+    "10": 1,
+    "9": 1
 }
 
 
