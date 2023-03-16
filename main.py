@@ -5,18 +5,20 @@ MAX_BET = 100
 MIN_BET = 1
 
 ROWS = 3
-COLS = 5
+COLS = 3
 
 symbol_count = {
-    "A": 15,
-    "K": 15,
-    "Q": 15,
+    "A": 3,
+    "K": 4,
+    "Q": 6,
+    "J": 8
 }
 
 symbol_value = {
     "A": 5,
     "K": 4,
     "Q": 3,
+    "J": 2
 }
 
 
